@@ -4,10 +4,10 @@
   background-color: transparent;
   border-style: solid;
   border-width: 0.125rem;
-  border-color: transparent;
+  border-color: var(--accent-1);
   border-radius: 0.125rem;
   /*Padding/Text styling*/
-  padding: 0.5rem 1rem;
+  padding: 0.125rem 0.25rem;
   font-size: 1rem;
   /*Transition durations*/
   transition:
@@ -17,13 +17,28 @@
   /*Width/Height styling*/
   width: auto;
   height: auto;
+  min-width: 200px;
 }
 .button:hover {
   /*Cursor styling*/
   cursor: pointer;
-  background-color: transparent;
-  color: transparent;
+  background-color: var(--accent-1);
+  color: #fff;
 }
 .button:active {
   transform: scale(0.9);
+}
+.mode-container
+{
+  gap: 1rem;
+}
+.selected
+{
+  background-color: #90EE90;
+  border-color: #90EE90; 
+}
+.selected:hover
+{
+  border-color: #90EE90; 
+  background-color: #90EE90;
 }
