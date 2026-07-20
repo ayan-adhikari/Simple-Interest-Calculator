@@ -41,4 +41,5 @@
 {
   border-color: #90EE90; 
   background-color: #90EE90;
+  color: var(--text-color)
 }
