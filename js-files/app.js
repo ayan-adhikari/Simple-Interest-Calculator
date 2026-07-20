@@ -14,11 +14,11 @@ function template () {
         <div id="page-content" class="${data.contentDisplay}">
             <!-- Header -->
             <header class="header">
-                <h1>Header</h1>
+                <h1>Simple Interest Calculator</h1>
             </header>
             <!-- Main Content -->
             <main class="main secondary-bg">
-                <!-- Add content here -->
+                <p class="text body-text centered-text">Select mode, enter the values for each known variable, then press enter. (Buttons are coming soon)</p>
             </main>
         </div>
 

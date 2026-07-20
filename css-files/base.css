@@ -1,14 +1,14 @@
 /*Variables*/
 :root {
    /*Color Variables (transparent/black is a placeholder)*/
-    --main: transparent;
-    --secondary: transparent; /*Lighter version of main*/
-    --accent-1: transparent;
+    --main: #fff;
+    --secondary: #fff; 
+    --accent-1: #1e90ff;
     --accent-2: transparent;
     --text: black;
    /*Font variables*/
-   --heading-font: insert-heading-font;
-   --body-font: insert-body-font;
+   --heading-font: font-family: "Montserrat", sans-serif;
+   --body-font: font-family: "Inter", sans-serif;
 }
 
 /*Background and Text Colours*/
@@ -68,6 +68,10 @@
 }
 .body-text
 {
-   font-size: clamp(1rem, 1.2vw, 1.3rem);
+   font-size: clamp(1.5rem, 1.3vw, 1.8rem);
    font-family: var(--body-font);
+}
+.centered-text
+{
+    text-align: center;
 }
